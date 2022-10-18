@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: calc(100vh - 79px);
+    background-image: url('../images/cover2.png');
+    background-size: cover;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #0006a9 0%, #0006a969 0%, #f57f1769 100%);
+    /*FLEX BOX*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    
+    background: linear-gradient(90deg, #005A9C, #2699FB);
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    font-size: 14px;
+    padding: 30px 0px 30px 0px;
+}
+section {
+    background-color: #ffffffd4;
+    border-radius: 5px;
+    box-shadow: #00000033 7px 4px 9px 1px;
+    margin-top: 20px;
+
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-image: url('../images/gradient-line.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 4px;
+}
+
+.contato {
+    font-size: 14px;
+    color: #616161;
+    text-decoration: none;
+
+    display: flex;
+    align-self: center; 
+}
+
+.autenticacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+
+    background: white;
+    border-radius: 2px 0px 0px 2px;
+    border: 1px dashed #D5D5D5;
+    outline: 0;
+
+    padding: 25px;
+    margin: 7px 0px 7px 0px;
+
+    color: #707070;
+    font-size: 14px;
+}
+
+a {
+    color: #005A9C;
+    text-decoration: none;
+    padding-top: 15.5px;
+}
+
+p {
+    color: #005A9C; 
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+button {
+    background: #005A9C;
+
+    width: 160px;
+    height: 50px;
+    margin-top: 7px;
+
+    border: 0;
+    color: white;
+
+    cursor: pointer;
+
+    transform: transform .3s;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
